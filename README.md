@@ -28,3 +28,5 @@ uint, uint8, uint16, uint32, uint64
 meaning var1= 1, var2 = 2 and can also be wriiten as
 
 `var1 var2:=1, 2`
+
+# if statement and switch statement available
