@@ -56,7 +56,7 @@ this prints out the memory location of index 2 and its store in a contiguous mem
 `var newArr [3]int32 = [3]int32{1,2,3}  
 	newArr := [...]int32{1,2,3} 
 	newArr := [3]int32{1,2,3} `
-0
+
 this append multiple values to the slice by using spread operator
 
 # easier way to deal with iterating an index in strings is to cast them to an array of rune
