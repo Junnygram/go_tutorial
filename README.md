@@ -1,12 +1,19 @@
 a module is a single file containing code, whereas a package is a collection of modules
 
-# to compile and run in a single command
+# to compile and run in a single command in the terminal
 
 go run directory
 
-# to print
+# to print `import "fmt"`
 
-import "fmt"
+# differnce between `fmt.Println() ` and `fmt.Println()`
+
+Println() function is used to print a line to the standard output (usually the console). e.g `fmt.Println("Hello, World!")`
+while Printf() function is used for formatted printing. It allows you to specify a format string
+e.g
+` name := "John"
+    age := 30
+    fmt.Printf("Name: %s, Age: %d\n", name, age)`
 
 # dataTypes
 
@@ -50,5 +57,8 @@ this prints out the memory location of index 2 and its store in a contiguous mem
 	newArr := [...]int32{1,2,3} 
 	newArr := [3]int32{1,2,3} `
 0
+this append multiple values to the slice by using spread operator
 
-#append multiple values to the slice by using spread operator
+# easier way to deal with iterating an index in strings is to cast them to an array of rune
+
+# rune is an alias of int 32
