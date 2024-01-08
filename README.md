@@ -62,3 +62,6 @@ this append multiple values to the slice by using spread operator
 # easier way to deal with iterating an index in strings is to cast them to an array of rune
 
 # rune is an alias of int 32
+
+object in javascript is called struct in go
+struct is mutable in go so as in javascriot objects are mutable as well
