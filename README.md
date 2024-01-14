@@ -65,3 +65,6 @@ this append multiple values to the slice by using spread operator
 
 object in javascript is called struct in go
 struct is mutable in go so as in javascriot objects are mutable as well
+
+Pointers are special type, these are varibles which store memrory location rather than values like intergers and floats .
+Make sure pointer is nill before you assign values to it else we will get a runtime.
