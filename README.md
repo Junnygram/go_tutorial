@@ -71,3 +71,8 @@ Make sure pointer is nill before you assign values to it else we will get a runt
 
 Goroutines is a way of multiple functions and have them execute concurrently
 concurrency =/ parallel execution
+
+channels :
+1 they hold data
+2 they are thread safe
+3 they listen for data
