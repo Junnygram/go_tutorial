@@ -1,12 +1,8 @@
 # Go essentials
 
-`
-func functioName(param1 type1, param2 type2) return Type{
-
+`func functioName(param1 type1, param2 type2) return Type{
 //Function body
-
 return result
-
 }`
 
 Concurrency is one of the defining features of Go. Go provides native support for concurrency through goroutines and channels. Goroutines are lightweight threads that allow developers to execute concurrent tasks efficiently. Channels facilitate communication and synchronisation between goroutines, making it easier to build concurrent systems.
@@ -27,8 +23,8 @@ The Go command is a fundamental tool in Go that serves various purposes, includi
 var localName string // can only be accessed in the source file it is declared in. `
 
 go build : Compiles the Go program and generates an executable binary. If there are no errors, this will create an executable le with the same name as the directory.
-go run : : Compiles and runs a Go program in a single step. This is useful for quickly testing small programs.
-go install : : Compiles and installs the Go package or program. If the package is a command (an executable), it will be placed in the bin directory dened in your GOPATH.
+go run : Compiles and runs a Go program in a single step. This is useful for quickly testing small programs.
+go install : Compiles and installs the Go package or program. If the package is a command (an executable), it will be placed in the bin directory dened in your GOPATH.
 go get: : Fetches and installs packages from the remote repository.
 go test : Runs tests associated with the current package.
 
@@ -37,7 +33,6 @@ To declare a variable, use the var keyword followed by the variable name, its ty
 
 `package main
 import "fmt"
-
 func main() {
 var name string // initialized as an empty string:""  
 name = "John"// name string now becomes "John" fmt.println("Name:", name) // Output: Name: John
@@ -46,8 +41,7 @@ var ageint=30fmt.Println("Age:", age) // Output: Age: 30// You can also use the 
 
 In a backend system, you often need to work with different data types. You declare variables explicitly, indicating their types for clarity and type safety.
 
-`
-package main
+`package main
 import "fmt"
 func main() {var databaseURL stringdatabaseURL = "mongodb://localhost:27017/mydb" fmt.Println("Database URL:", databaseURL)
 var port int = 8080
