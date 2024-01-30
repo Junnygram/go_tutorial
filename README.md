@@ -94,3 +94,9 @@ Premium Gold Enterprise
 // 3 (automatically incremented from iota)
 fmt.Println("Available subscription packages and index:") fmt.Println("Basic:", Basic)fmt.Println("Premium:", Premium)fmt.Println("Gold:", Gold)
 fmt.Println("Enterprise:", Enterprise) }`
+
+Go uses a combination of stack and heap for memory management.
+The stack is used for storing local variables and function call frames. It has a fixed size and is managed automatically by the Go runtime. When a function is called, its local variables are allocated on the stack, and when the function returns, the stack space is freed.
+On the other hand, the heap is used for dynamically allocated memory. Variables created using new() or make() functions are allocated on the heap. The heap provides more flexibility for managing memory but requires explicit garbage collection to free memory that is no longer in use.
+Pointers in Go
+Pointers are variables that store the memory address of another variable. They indicate mutable parameters. They allow you to directly access and modify the value of the variable they point to. Pointers are essential for working with large data structures, avoiding unnecessary memory copies, and passing values by reference.
